@@ -1,9 +1,9 @@
-#Set up
+# Set up
 cp .env.example .env
 composer install
 vendor/bin/phpunit tests/
 
-#Some explanation of my app
+# Some explanation of my app
 In app we have *src/* folder that contain all needed files to work with API of "Weather Api" resource. Also we have *tests/* folder where we can see how you can use this code base.
 We need to use ***ApiFactory*** to create our ***WeatherApi*** class instance and use it to get needed data. Then we just need to use ***ConsoleData*** to complete our task. If we need to render data in future in extra variety, we can add new class and implement ***IData*** interface.
 Used **Psalm** code static analyzer.
