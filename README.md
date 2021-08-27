@@ -39,6 +39,6 @@ Description about behavior:
 Client just send post request with "date" param in body with value of date as "Y-m-d" in JSON encode. Server validate that client sending: valid json, only param "date", date have valid string with date type, date not in past time.
 Server set data for city and response only status code and nothing in body.
 
-#VERY IMPORTANT
+# VERY IMPORTANT
 I am Andrew Negoda.
 Recruiter company SQRD Tech.
